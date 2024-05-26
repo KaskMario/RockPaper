@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
          rockPaperScissors();
 
+
     }
     static void rockPaperScissors(){
         scan = new Scanner(System.in);
