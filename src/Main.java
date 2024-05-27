@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Main {
     static Scanner scan;
     static String answer;
-    static int rand = new Random().nextInt(3);
     static int gameCount;
 
     public static void main(String[] args) {
@@ -40,7 +39,8 @@ public class Main {
 
 
     static String cpuTurn() {
-         String cpuChoice= "";
+        int rand = new Random().nextInt(3);
+        String cpuChoice= "";
         switch (rand) {
             case 0 -> cpuChoice = "paper";
             case 1 -> cpuChoice = "rock";
